@@ -10,7 +10,6 @@ public class Main {
          myset.add("Sulaiman");
          //print the set
         System.out.println(myset);
-        
         //check if name John is found
         if(myset.contains("John"))
         {

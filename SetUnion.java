@@ -21,16 +21,16 @@ public class SetUnionExample {
         set3.add(10);
 
         // Find and print the union of the three sets
-        Set<Integer> union = findUnion(set1, set2, set3);
+        Set<Integer> unionSet = findUnion(set1, set2, set3);
 
-        System.out.println("Union of the three sets: " + union);
+        System.out.println("Union of the three sets: " + unionSet);
     }
 
     // Function to find the union of three sets
     private static Set<Integer> findUnion(Set<Integer> set1, Set<Integer> set2, Set<Integer> set3) {
-        Set<Integer> union = new HashSet<>(set1);
-        union.addAll(set2);
-        union.addAll(set3);
-        return union;
+        Set<Integer> unionSet = new HashSet<>(set1);
+        unionSet.addAll(set2);
+        unionSet.addAll(set3);
+        return unionSet;
     }
 }
